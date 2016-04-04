@@ -1,0 +1,34 @@
+{
+  "name": "redux-auspost-search",
+  "version": "1.0.0",
+  "description": "React/Redux form to search AusPost API.",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jmcmullen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "react-addons-test-utils": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "webpack-livereload-plugin": "*"
+  },
+  "dependencies": {
+    "axios": "*",
+    "babel-preset-stage-1": "*",
+    "lodash": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "react-router": "*",
+    "redux": "*",
+    "redux-promise": "*"
+  }
+}
